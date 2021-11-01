@@ -18,7 +18,7 @@ public class Snapdeal extends Base
 	}
 	public void searchItem()
 	{
-		driver.findElement(By.name("keyword")).sendKeys("Doll House");
+		driver.findElement(By.name("keyword")).sendKeys("Dol House");
 		driver.findElement(By.className("searchTextSpan")).click();
 	}
 	public void filterPrice()
