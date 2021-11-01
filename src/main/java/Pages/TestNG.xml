@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FreeCRMTest">
+
+	<test name="WelcomePageTest">
+		<classes>
+			<class name="com.crm.qea.testcases.WelcomePageTest" />
+		</classes>
+	</test>
+
+	<test name="LoginPageTest">
+		<classes>
+			<class name="com.crm.qea.testcases.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="HomePageTest">
+		<classes>
+			<class name="com.crm.qea.testcases.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="ContactPageTest">
+		<classes>
+			<class name="com.crm.qea.testcases.ContactsPageTest" />
+		</classes>
+	</test>
+
+	<test name="CreateNewConatactPageTest">
+		<classes>
+			<class name="com.crm.qea.testcases.CreateNewContactPageTest" />
+		</classes>
+	</test>
+</suite>
