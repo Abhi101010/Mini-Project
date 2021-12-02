@@ -1,8 +1,0 @@
-<suite name="SnapDeal Testing">
-	<test name="Functional Testing">
-		<classes>
-			<class name="Base.Base" />
-			<class name="TestSuite.Snapdeal_Test"/>
-		</classes>
-	</test>
-</suite>
